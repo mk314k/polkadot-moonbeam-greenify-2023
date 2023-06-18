@@ -43,40 +43,61 @@ EasyA x Polka dot Hackathon
 🏢 <b>Architecture of the Staking DAO System:</b>
 
 1️⃣ Delegators/User Interface:
+
 •	Provides a user-friendly interface for delegators to interact with the system.
+
 •	Allows delegators to stake their tokens on Collators.
+
 •	Displays information about the Collators and their ESG scores.
 
 2️⃣ Collator Management:
+
 •	Collects data from various sources to calculate the ESG score of each Collator.
+
 •	Updates the ESG scores periodically based on the latest data.
+
 •	Maintains a database of Collators and their corresponding ESG scores.
 
 3️⃣ Staking Contract:
+
 •	Implements the staking functionality, allowing delegators to stake their tokens on Collators.
+
 •	Manages the delegation and withdrawal of tokens.
+
 •	Calculates and distributes rewards to delegators based on the ESG scores of the Collators they have staked with.
 
 4️⃣ Rewards Distribution:
+
 •	Determines the reward distribution mechanism based on the ESG scores.
+
 •	Calculates the rewards earned by delegators.
+
 •	Distributes rewards to delegators' wallets accordingly.
 
 5️⃣ Blockchain Layer:
+
 •	Utilizes Moonbeam Staking Pre-Compile, a blockchain platform compatible with Ethereum, to handle staking operations and smart contracts.
+
 •	Provides a secure and decentralized environment for executing transactions and storing data.
 
 6️⃣ Data Sources:
+
 •	Integrates with various external data sources to gather information for calculating the ESG scores of Collators.
+
 •	Data sources can include carbon emission databases, DEI reports, electricity consumption records, and legal compliance information.
 
 7️⃣ User Wallets:
+
 •	Delegators manage their tokens and interact with the system through their individual wallets.
+
 •	Wallets enable users to stake, withdraw, and receive rewards.
 
 8️⃣ Frontend/UI:
+
 •	Implements a visually appealing and intuitive user interface.
+
 •	Connects with the backend system to display Collator information, staking options, and reward details.
+
 •	Allows users to interact with the system seamlessly.
 
 The architecture above outlines the key components and their interactions in the Staking DAO system, enabling delegators to stake their tokens, Collators to be evaluated based on ESG scores, and rewards to be distributed accordingly.
