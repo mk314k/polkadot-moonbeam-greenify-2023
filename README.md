@@ -1,30 +1,46 @@
 # polkadot-moonbeam-greenify-2023
 EasyA x Polka dot Hackathon
 
-👨‍💻 Developers: 
+👨‍💻 <b>Developers:</b> 
+
 🔹 Kartikesh - MIT CS Major 
+
 🔹 Shubham - Northeastern Software Engineering Major 
+
 🔹 Chandler - Northeastern Business Major 
+
 🔹 Rishi - Northeastern Software Engineering Major 
+
 🔹 Swaroop - Northeastern Software Engineering Major
 
-📚 Overview: 
+📚 <b>Overview:</b> 
+
 🌱 Greenify is a Staking DAO that allows users to stake their tokens on different companies/collators. These collators have an ESG (Environmental, Social, and Governance) score, which is dynamically calculated from various sources using attributes like carbon emission, DEI, electricity consumption, and legal compliance. Based on this score, delegators who have staked tokens with a particular company/collator are rewarded if they choose a collator with a high ESG score.
 
 🌍 Greenify aims to utilize blockchain technology to make an Environmental, Social, and Governance impact on society. The project plans to onboard major companies based on various categories and encourage them to create a highly ESG-friendly environment.
 
-🔒 Staking DAO Functionalities:
+🔒 <b>Staking DAO Functionalities: </b>
+
+
 1️⃣  Delegators/Users can stake funds on the Collators. 💰💼
+
 2️⃣  Collators have an ESG score calculated using data collected from various sources. 📊🌍
+
 3️⃣  Based on the ESG scores, Collators are nominated, and delegators are incentivized. 🏆🔝
+
 4️⃣  Delegators who support Collators with high ESG scores are rewarded. 🎁🌱
 
-🛠️ Tech Stack: 
+🛠️ <b>Tech Stack:</b> 
+
+
 1️⃣ Moonbeam Staking Pre-Compile 🌙⛓️ 
+
 2️⃣ Solidity Smart Contract 🧠💡 
+
 3️⃣ Scaffold ETH (to make the repository visually appealing) 🏗️🖌️
 
-🏢 Architecture of the Staking DAO System:
+
+🏢 <b>Architecture of the Staking DAO System:</b>
 
 1️⃣ Delegators/User Interface:
 •	Provides a user-friendly interface for delegators to interact with the system.
