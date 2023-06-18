@@ -26,6 +26,17 @@ export default function ExampleUI({
 
   const chainState = ["Collecting", "Staking", "Revoking", "Revoked"];
 
+  const companies = [
+    { address: "0x123...", name: "Company 1" },
+    { address: "0x456...", name: "Company 2" },
+    { address: "0x789...", name: "Company 3" },
+    { address: "0xabc...", name: "Company 4" },
+    { address: "0xdef...", name: "Company 5" },
+  ];
+
+  const company = companies.map((company) =>(
+    <li>{company.name} <hr/> <input type="radio" value="check"/></li>
+  ))
   return (
     <div>
       {/*
@@ -33,13 +44,13 @@ export default function ExampleUI({
       */}
       <div style={{ border: "1px solid #cccccc", padding: 16, width: 800, margin: "auto", marginTop: 64 }}>
         <img src={logo} alt="Logo" />;
+        <h1>Companies Listing</h1>
 
-        
-        <h1>Delegation DAO Example UI:</h1>
-        <h2>Target Collator: {target}</h2>
+        {/* <h2>Target Collator: {target}</h2>
         <h2>Total Stake: {totalStake ? utils.formatEther(totalStake) : "..."}</h2>
         <h2>Member Stake: {memberStake ? utils.formatEther(memberStake) : "..."}</h2>
-        <h2>Current DAO State: {chainState[currentState]}</h2>
+        <h2>Current DAO State: {chainState[currentState]}</h2> */}
+       <ul> {company} </ul>
         <Divider />
         <div style={{ margin: 8 }}>
           <h2>Add Stake Amount: </h2>
